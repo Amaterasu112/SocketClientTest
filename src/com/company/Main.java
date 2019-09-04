@@ -75,7 +75,11 @@ public class Main {
         // write your code here
         Socket myClient = connect();
 
+        //this code sucks a lot, so fucking much
+
+
         while(true){
+            sleep(5);
             run(myClient);
             sleep(3000);
         }
